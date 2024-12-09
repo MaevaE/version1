@@ -1,0 +1,184 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal;
+    
+  }
+  body{
+    background-color: black;
+  }
+
+div.divprincipal{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+div.image{
+    background-position: center;
+}
+div.image img{
+    width: 400px;
+    height: 630px;
+    
+}
+div.form{
+    background-color: rgba(245, 245, 245, 0.945)
+    ;
+    height: 630px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+div.divprincipal div.form ul {
+  list-style-type: none;
+  display: flex;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+div.divprincipal div.form  div.menu ul{
+    padding-top: 0;
+   
+    
+  }
+div.divprincipal div.form ul  a li.inscrip span{
+    padding-left: 30px;
+  }
+
+div.divprincipal div.form ul  a li.inscrip {
+   padding-left: 30px;
+   background-color: blue;
+   width: 200px;
+   height: 40px;
+   padding-top: 10px;
+   border-radius: 2.5px;
+   transition: transform  0.3S ease;
+}
+div.divprincipal div.form ul li.inscrip:hover {
+  transform: scale(1.1);
+}
+div.divprincipal div.form ul li.inscrip:hover span{
+  color: whitesmoke;
+}
+
+div.divprincipal div.form div.menu ul li.inscrip a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding-top: 50px;
+    
+ }
+div.divprincipal div.form ul li.conec {
+    padding-left: 10px;
+    background-color: rgba(15, 13, 13, 0.164);
+    width: 200px;
+   height: 40px;
+   padding-top: 10px;
+   border-radius: 2.5px;
+   transition: transform  0.3S ease;
+ }
+ div.divprincipal div.form ul  a li.conec span{
+  padding-left: 30px;
+}
+div.divprincipal div.form ul  a.conec li.conec:hover{
+  color: blue;
+}
+ div.divprincipal div.form ul li.conec:hover{
+  transform: scale(1.1);
+}
+div.divprincipal div.form ul li.conec:hover span{
+  color: whitesmoke;
+}
+ div.divprincipal div.form ul  a {
+    text-decoration: none;
+    color: black;
+    padding-top: 50px;
+ 
+ }
+ div.divprincipal div.form ul  a li.conec span{
+  color: black;
+ }
+ div.divprincipal div.form form{
+    padding-left: 45px;
+ }
+ div.divprincipal div.form form div.input1 {
+    display: flex;
+    
+ }
+ div.divprincipal div.form form div.input1 div.icon1{
+   background-color:  rgba(15, 13, 13, 0.164);
+    width: 30px;
+    height: 41px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 2.5px;
+ }
+ div.divprincipal div.form form div.input1 div.icon6{
+  background-color: white;
+  width: 30px;
+    height: 39px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid rgb(194, 191, 191) 2px;
+    border-left: none;
+    padding-right: 5px;
+    margin-right: 22px;
+ }
+ div.divprincipal div.form form input{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    width: 395px;
+    border-color: rgba(245, 245, 245, 0.945);
+    
+ }
+ div.divprincipal div.form form input.int{
+  margin-right: none;
+
+ }
+ div.divprincipal div.form div.inscrip2 {
+    padding-top: 15px;
+    padding-left: 30px;
+    background-color: blue;
+    border-radius: 20rem;
+    width: 420px;
+    height: 30px;
+    margin-left: 30px;
+    transition: transform  0.3S ease;
+}
+div.divprincipal div.form div.inscrip2:hover{
+  transform: scale(1.2);
+}
+
+div.divprincipal div.form div.inscrip2  a{
+  text-decoration: none;
+  color:whitesmoke;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+div.divprincipal div.form div.oubli  a{
+  text-decoration: none;
+  color: black;
+  margin-left: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,497 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 16px;
+  font-style: normal;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.section1{
+    background-color: rgb(19, 94, 242);
+}
+ header{
+    display: flex;
+}
+header div.div1 h4{
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: whitesmoke;
+    float: right    ;
+}
+header div.div2 ul{
+    display: flex;
+    list-style-type: none; 
+    padding-left: 400px;
+    padding-top: 10px ;
+}
+header div.div2 ul li a:hover{
+    color: rgb(224, 219, 219);
+}
+
+header div.div2 ul div.C1 li {
+    border-left: solid  rgb(211, 207, 207) 1px;
+}
+header div.div2 ul div.C2 li a{
+    transition: transform 0.3s ease;
+}
+header div.div2 ul div.C2 li a:hover{
+    transform: scale(1.2);
+}
+header div.div2 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header div.div2 ul li a span{
+    padding-left: 10px;
+    font-size: 12px;
+}
+header div.div2 ul li a i{
+    padding-left: 20px;
+}
+header div.div2 ul div {
+    display: flex;
+    padding-left: 5px;
+}
+header div.div2 ul div li{
+    display: flex;
+    padding-left: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.section2 div.main1{
+    display: flex;
+    padding-top: 10px;
+}
+section.section2 div.main1 div.div1{
+    padding-left: 50px ;
+} 
+section.section2 div.main1 div.div1 a img{
+    width:  95px;
+}
+section.section2 div.main1 div.div2{
+    padding-left: 80px ;
+    display: flex;
+} 
+
+section.section2 div.main1 div.div2 ul li{
+    position: relative; 
+    display: inline-block;
+}
+section.section2 div.main1 div.div2 ul li ul.sousmenu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f0f0f0cb;
+        padding: 10px;
+        border: 1px solid #ccc;
+        list-style-type: none;
+      }
+
+      section.section2 div.main1 div.div2 ul li a:hover ul.sousmenu{
+        display: block;
+      }
+      section.section2 div.main1 div.div2 ul li ul.sousmenu li{
+            padding-bottom: 5px;
+      }
+      section.section2 div.main1 div.div2 ul li ul.sousmenu li a{
+        text-decoration: none;
+        color: black;
+      }
+      section.section2 div.main1 div.div2 ul li ul.sousmenu li a:hover{
+        color:  rgb(19, 94, 242);
+      }
+
+
+section.section2 div.main1 div.div2 ul{
+    list-style-type: none;
+    display: flex;
+} 
+section.section2 div.main1 div.div2 li{
+    padding-right: 10px;
+}
+
+
+section.section2 div.main1 div.div2 ul li a{
+    text-decoration: none;
+    color: black
+    ;
+    padding-right: 10px;
+} 
+section.section2 div.main1 div.div2 ul li a:hover{
+    color: rgb(19, 94, 242);
+}
+
+section.section2 div.main1 div.div2 ul li a span{
+    font-size: 9.5px;
+    font-weight: bold ;
+    padding-left: 10px;
+} 
+
+
+section.section2 div.main2{
+    margin-top: 50px;
+}
+section.section2 div.main2 div.div1{
+   
+    padding-left: 500px;
+    background: url("/home/maeva/frond_end/annexes/image/img5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 640px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+section.section2 div.main2 div.div1::before{
+    content: "";
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to right,rgba(0,149,186,0.808),rgba(108,80,167,0.767));
+    bottom: 0;
+    z-index: 1;
+
+}
+section.section2 div.main2 div.div1 div.salut{
+    font-size: 20px;
+    color: whitesmoke;
+    z-index: 2;
+}
+section.section2 div.main2 div.div2 ul{
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    width: 1100px;
+    height: 40px;
+    margin: auto;
+    list-style-type: none;
+  
+}
+section.section2 div.main2 div.div2 ul li{
+    padding-left: auto;
+    padding-top: 10px;
+    
+}
+section.section2 div.main2 div.div2 ul li:hover{
+    background-color: rgb(5, 5, 5);
+    
+}
+
+section.section2 div.main2 div.div2 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+section.section2 div.main2 div.div2 ul li a span{
+    padding-right: 60px;
+    font-size: 12px;
+    padding-left: 10px;
+    
+} 
+section.section2  div.main3 div.div1{
+    padding-top: 50px;
+    padding-left: 550px;
+}
+section.section2  div.main3 div.div1 span{
+    padding-top: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(12, 12, 12);
+}
+section.section2  div.main3  div.div2{
+   text-align: center;
+   padding: 17px 20px;
+    background-color: rgb(19,94,242);
+    font-size: 20px;
+    border-radius: 20px;
+    width: 55%;
+   margin-left: 300px;
+   margin-top: 50px;
+   transition: transform  0.3S ease;
+
+}
+section.section2  div.main3  div.div2:hover{
+    transform: scale(1.2);
+}
+section.section2  div.main3  div.div2 a span{
+    text-decoration: none;
+    color: whitesmoke;
+} 
+section.section2  div.main3  div.div2 a{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+section.section3 {
+    background-color: rgb(19, 94, 242);
+    padding-top: 10px;
+    margin-top: 150px;
+    display: flex;
+    height: 500px;
+}
+section.section3 footer div.footer1{
+    padding-left: 40px;
+    float: left;
+}
+section.section3 footer div.footer1 ul{
+    list-style-type: none;
+}
+section.section3 footer div.footer1 ul li{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 0.5px;
+    color: whitesmoke;
+}
+section.section3 footer div.footer1 ul li.titre1{
+    color:whitesmoke;
+    font-size: 22px;
+    padding-bottom: 20px;
+    border-bottom: none;
+}
+section.section3 footer div.footer1 ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding-bottom: 10px;
+    font-size: 15px;
+    
+}
+section.section3 footer div.footer1 ul li a span{
+    padding-left: 10px;
+}
+
+section.section3 footer div.footer2{
+    padding-left: 20px;
+    float: left;
+    padding-bottom: 120px;
+}
+section.section3 footer div.footer2 ul{
+    list-style-type: none;
+}
+section.section3 footer div.footer2 div.div1 ul li{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 0.5px;
+    color: whitesmoke;
+}
+section.section3 footer div.footer2  div.div1 ul li.titre2{
+    color:whitesmoke;
+    padding-bottom: 20px;
+    border-bottom: none;
+}
+section.section3 footer div.footer2  div.div1 ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+section.section3 footer div.footer2  div.div1 ul li  a span{
+    padding-left: 20px;
+}
+section.section3 footer div.footer2  div.div2 ul li.titre3{
+    color:whitesmoke;
+    padding-top: 20px;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+section.section3 footer div.footer2  div.div2 ul div.choix{
+     background-color: rgb(14, 86, 230);
+     border-radius: 10px;
+}
+section.section3 footer div.footer2  div.div2 ul p{
+    font-size: 22px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+section.section3 footer div.footer2  div.div2 ul li {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+section.section3 footer div.footer2  div.div2 ul li:hover{
+    background-color: whitesmoke;
+    
+} 
+section.section3 footer div.footer2  div.div2 ul li:hover a{
+    color: black;
+}
+section.section3 footer div.footer2  div.div2 ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+section.section3 footer div.footer2  div.div2 ul li a span{
+    padding-bottom: 30px;
+    padding-left: 20px;
+  
+} 
+
+
+section.section3 footer div.footer3{
+    padding-left: 780px;
+    padding-bottom: 10px;
+  
+} 
+section.section3 footer div.footer3 div.div1 ul{
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 20px;
+}
+section.section3 footer div.footer3 div.div1  p{
+    color: whitesmoke;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+section.section3 footer div.footer3 div.div1 ul li{
+    padding-right: 10px;
+}
+section.section3 footer div.footer3 div.div1 ul div.youtube{
+    background-color: red;
+    border-radius: 2rem;
+    margin-right: 10px;
+    padding-left: 10px;
+    height: 20px;
+    padding-top: 8px;
+}
+section.section3 footer div.footer3 div.div1 ul div.facebook{
+    background-color: rgb(47, 46, 78);
+    border-radius: 2rem;
+    margin-right: 15px;
+    padding-left: 10px;
+    height: 20px;
+    padding-top: 8px;
+}
+section.section3 footer div.footer3 div.div1 ul div.sap{
+    background-color: rgb(23, 192, 23);
+    border-radius: 2rem;
+    margin-right: 10px;
+    padding-left: 10px;
+    height: 20px;
+    padding-top: 8px;
+}
+section.section3 footer div.footer3 div.div1 ul div.insta{
+    background-color: rgb(255, 0, 157);
+    border-radius: 2rem;
+    margin-right: 10px;
+    padding-left: 10px;
+    height: 20px;
+    padding-top: 8px;
+}
+section.section3 footer div.footer3 div.div1 ul li a{
+    color:whitesmoke;
+   text-decoration: none;
+   padding-bottom: 10px;
+
+} 
+section.section3 footer div.footer3 div.div1 ul li a i{
+    display: flex;
+} 
+
+section.section3 footer div.footer3 div.div2 span.span1{
+    color: whitesmoke;
+    font-size: 22px;
+    padding-left: 40px;
+}
+section.section3 footer div.footer3 div.div2 span{
+    color: whitesmoke;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-weight: 10px;
+}
+
+section.section3 footer div.footer3 div.div3 img{
+   padding-left: 280px;
+   width: 220px;
+
+} 
+section.section3 footer div.footer3 div.div4{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 30px;
+    margin-left: 280px;
+    padding-right: 50px;
+    padding-left: 70px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+}
+section.section3 footer div.footer3 div.div4 a{
+        text-decoration: none;
+        color: black;
+       
+}
+section.section3 footer div.footer3 div.div4:hover{
+    transform: scale(0.8);
+}
+
+
+
+
+
+ div.divfin{
+    background-color: none;
+    padding-top: 10px;
+} 
+div.divfin span.spanfin1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  
+} 
+div.divfin span.spanfin2{
+    font-size: 10px;
+    font-weight: 5px;
+}
+div.divfin ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 1000px;
+
+}
+div.divfin ul li a{
+     
+}
+
+
